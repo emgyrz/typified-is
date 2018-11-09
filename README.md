@@ -1,4 +1,4 @@
-#typified-is
+# typified-is
 Typified checkers for js primitives and objects for flow.js and typescript
 
 List of checkers:

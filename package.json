@@ -6,6 +6,7 @@
   "module": "dist/index.esm.js",
   "browser": "dist/index.umd.js",
   "repository": "https://github.com/emgyrz/typified-is.git",
+  "keywords": [ "check", "checker", "is", "typed", "typified", "flow", "typescript", "helpers" ],
   "author": "mz <geleg.namgyel.spb@gmail.com>",
   "license": "MIT",
   "private": false,

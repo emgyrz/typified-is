@@ -1,0 +1,15 @@
+export function isArr( some: any ): some is any[];
+export function isBlob( some: any ): some is Blob;
+export function isBool( some: any ): some is boolean;
+export function isEl( some: any ): some is HTMLElement;
+export function isF( some: any ): some is Func;
+export function isFile( some: any ): some is File;
+export function isNil( some: any ): some is null | undefined;
+export function isNonEmptyStr( some: any ): some is string;
+export function isNull( some: any ): some is null;
+export function isNum( some: any ): some is number;
+export function isObj( some: any ): some is { [key: string]: any };
+export function isPromise( some: any ): some is Promise;
+export function isSVG( some: any ): some is SVGElement;
+export function isStr( some: any ): some is string;
+export function isUndef( some: any ): some is undefined;

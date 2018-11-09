@@ -1,0 +1,19 @@
+// @flow
+
+declare export function isArr( any: mixed ): boolean %checks ( Array.isArray( any ) )
+declare export function isNum( any: mixed ): boolean %checks ( typeof any === 'number' )
+declare export function isStr( any: mixed ): boolean %checks ( typeof any === 'string' )
+declare export function isNonEmptyStr( any: mixed ): boolean %checks ( typeof any === 'string' )
+declare export function isF( any: mixed ): boolean %checks ( typeof any === 'function' )
+declare export function isBool( any: mixed ): boolean %checks ( typeof any === 'boolean' )
+declare export function isObj( any: mixed ): boolean %checks ( typeof any === 'object' && any !== null )
+declare export function isPromise( any: mixed ): boolean %checks ( any instanceof Promise )
+declare export function isNull( any: mixed ): boolean %checks ( any === null )
+declare export function isUndef( any: mixed ): boolean %checks ( any === undefined )
+declare export function isNil( any: mixed ): boolean %checks ( any === null || any === undefined )
+declare export function isEl( any: mixed ): boolean %checks ( any instanceof HTMLElement )
+declare export function isSVG( any: mixed ): boolean %checks ( any instanceof window.SVGElement )
+
+
+declare export function isBlob( any: mixed ): boolean %checks ( any instanceof Blob )
+declare export function isFile( any: mixed ): boolean %checks ( any instanceof File )

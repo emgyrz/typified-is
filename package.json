@@ -1,6 +1,6 @@
 {
   "name": "typified-is",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Typified checkers for js primitives and objects for flow.js and typescript",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
